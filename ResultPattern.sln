@@ -5,19 +5,24 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CE4ED547-849B-4132-91D2-20B489FDB9D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macrobert.ResultPattern", "src\ResultPattern\Macrobert.ResultPattern.csproj", "{3C786EB3-B299-45FE-AA94-261B8CA5BB87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Macrobert.ResultPattern", "src\ResultPattern\Macrobert.ResultPattern.csproj", "{3C786EB3-B299-45FE-AA94-261B8CA5BB87}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C7AD646D-1793-4072-A47C-B872CDBD8A2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.MacRobert.ResultPattern", "test\Test.MacRobert.ResultPattern\Test.MacRobert.ResultPattern.csproj", "{661BF6A5-1E8A-4B7C-85FE-CB1EBCDD1560}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.MacRobert.ResultPattern", "test\Test.MacRobert.ResultPattern\Test.MacRobert.ResultPattern.csproj", "{661BF6A5-1E8A-4B7C-85FE-CB1EBCDD1560}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFFB1F5F-A5E1-4F7C-85B4-D6C8DE311255}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3C786EB3-B299-45FE-AA94-261B8CA5BB87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -29,8 +34,14 @@ Global
 		{661BF6A5-1E8A-4B7C-85FE-CB1EBCDD1560}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{661BF6A5-1E8A-4B7C-85FE-CB1EBCDD1560}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3C786EB3-B299-45FE-AA94-261B8CA5BB87} = {CE4ED547-849B-4132-91D2-20B489FDB9D9}
 		{661BF6A5-1E8A-4B7C-85FE-CB1EBCDD1560} = {C7AD646D-1793-4072-A47C-B872CDBD8A2C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A82954C-4F9A-41E1-8D82-9FBB7EED82D3}
 	EndGlobalSection
 EndGlobal
